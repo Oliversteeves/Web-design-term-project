@@ -33,3 +33,18 @@ nav li a:hover {
     background: #6c6c6c;
 }
 
+.buy{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0;
+    background: #929292;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.buy a:hover {
+    text-decoration: underline;
+    background: #6c6c6c;
+}
