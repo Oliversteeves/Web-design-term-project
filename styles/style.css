@@ -1,1 +1,35 @@
 /* temp css file (until we come up with something*/
+header {
+    text-align: center;
+    background-color: #afafaf;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    
+    padding: 10px;
+    border-radius: 4px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: .2em;
+    background: #929292;
+    margin: 15px 0;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    background: #6c6c6c;
+}
+
