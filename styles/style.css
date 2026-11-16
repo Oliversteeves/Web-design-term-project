@@ -18,7 +18,7 @@ nav ul {
     border-radius: 4px;
 }
 
-.simp_nav {
+.simp_nav { /* not final edit to your hearts content */
     list-style-type: none;
     padding: 0;
     margin: 15px 0;
@@ -39,7 +39,7 @@ nav li a {
     margin: 15px 0;
 }
 
-.social_links {
+.social_links { /* not final edit to your hearts content */
     list-style-type: none;
     padding: 0;
     margin: 15px 0;
@@ -72,4 +72,10 @@ nav li a:hover {
     text-decoration: underline; 
     background: #6c6c6c;
     
+}
+footer {
+    text-align: center;
+    font-size: .9em;
+    padding: 1.5em;
+    color: #555555;
 }
