@@ -4,11 +4,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Term Project</title>
-    <!--<link rel="stylesheet" href="style.css"> -->
+    <title>Level Up Games</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <header>
-    <h1>Insert website title here</h1>
+    <h1><a href="index.html"><img src="images/templogo.png" alt="templogo"></a></h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,3 +18,62 @@
         </ul>
     </nav>
 </header>
+<body>
+    <body>
+    <h1>Contact Us</h1>
+    <form method="get">
+        E-mail: <input type="text" name="email" id="email" required>
+        <br>
+        <br>
+        First Name: <input type="text" name="fname" id="fname" required>
+        <br>
+        <br>
+        Last Name: <input type="text" name="lname" id="lname" required>
+        <br>
+        <br>
+        <label for="Who">Who Do You Want To Contact: </label>
+        <select id="who_contact" name="Who_contact" required>
+            <option value="">--Please choose who to contact--</option>
+            <option value="Us">Us</option>
+            <option value="Cherry">Team Cherry</option>
+            <option value="temp1">Temp1</option>
+            <option value="temp2">Temp2</option>
+            <option value="temp3">Temp3</option>
+            <option value="temp4">Temp4</option>
+        </select>
+        <br>
+        <br>
+        <label for="Why">What are you contacting for: </label>
+        <select id="why_contact" name="why_contact" required>
+            <option value="">--Please choose an reason--</option>
+            <option value="Web_issue">Issue With Our Website</option>
+            <option value="Beta">Beta Testing</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        Comments:<br>
+        <textarea name="comments" id="comments" rows="4" cols="40" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Contact">
+        <input type="reset" value="Clear">
+    </form>
+    <nav class="social_links">
+        <ul>
+            <li><a href="mailto:Levelupgames@gmail.com">Email</a></li>
+            <li><a href="https://x.com/home?lang=en">Twitter / X</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </nav>
+</body>
+<footer>
+    <nav class="simp_nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+</footer>
