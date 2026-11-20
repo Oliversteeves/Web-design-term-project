@@ -1,4 +1,11 @@
 /* temp css file (until we come up with something*/
+#wrapper {
+            width: 90%;             /* Expands dynamically to fill browser screen */
+            max-width: 1200px;      /* Prevents text lines from getting too long on ultra-wide screens */
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
 header {
     text-align: center;
     background-color: #afafaf;
@@ -150,4 +157,9 @@ footer {
     padding: 1em;
     color: #555555;
     background-color: #343333;
+}
+@media (min-width: 768px) {
+    .media-grid {
+        grid-template-columns: repeat(2, 1fr); /* Side-by-side two-column grid */
+    }
 }
