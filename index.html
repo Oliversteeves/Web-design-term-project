@@ -6,46 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Level Up Games</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <header>
-    <h1><a href="index.html"><img src="images/templogo.png" alt="templogo"></a></h1>
-    <nav>
-        <ul>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="support.html">Support</a></li>
-        </ul>
-    </nav>
+    <h1><a href="index.html"><img src="images/templogo.png" alt="templogo" class="logo"></a></h1>
+    
 </header>
 <body>
     <div class="wrapper">
-        
-        <div class="DisplayBack">
-            <h1 class="title_header">Biggest Indie Release In The Past 2 Years!!!</h1>
-            <h2 class="title_header">Hollow knight Silksong</h2>
-            <br>
-            <br>
-            <img src="images/hksilk.png" alt="Hollow_Knight_Silksong_image" class="DisplayImg">
-        
-        <p class="description">Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.</p>
-        <h1 class="where_head">Buy At On These Platforms:</h1>
-            <platforms class="lists_stuff">
-                <nav>
-                    <h3>
-                        <ul>
-                            <li><a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/">Steam</a></li>
-                            <li><a href="https://www.playstation.com/en-ca/games/hollow-knight-silksong/">Ps4/Ps5</a></li>
-                            <li><a href="https://www.nintendo.com/en-ca/store/products/hollow-knight-silksong-switch/">Nintendo Switch 1 & 2</a></li>
-                            <li><a href="https://www.xbox.com/en-CA/games/store/hollow-knight-silksong/9n116v0599hb">Xbox One / Series X & S</a></li>
-                        </ul>
-                    </h3>
-                </nav>
-        
-                <br><br>
-            </platforms>
-        </div>
-        </div>
+        <div class="columns">
+            <aside class="column is-2">
+                <div class="side-nav">
+                    <h3 class="title is-4">Navigation</h3>
+                    <ul class="nav_stuff">
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+            </aside>
+         <main class="column is-7">
+            <div class="gamebox">
+                <h1 class="title_header"> Biggest Indie Release In The Past 2 Years!!! </h1><br>
+                <img src="images/hksilk.png" alt="Hollow Knight Silksong" class="DisplayImg"><br>
+                <p class="description">Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.</p>
+                <h1 class="where_head">Buy At On These Platforms:</h1>
+                <br>
+                <ul class="lists_stuff">
+                    <li><a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/">Steam</a></li>
+                    <li><a href="https://www.playstation.com/en-ca/games/hollow-knight-silksong/">PS4 / PS5</a></li>
+                    <li><a href="https://www.nintendo.com/en-ca/store/products/hollow-knight-silksong-switch/">Nintendo Switch</a></li>
+                    <li><a href="https://www.xbox.com/en-CA/games/store/hollow-knight-silksong/9n116v0599hb">Xbox</a></li>
+                </ul>
+            </div>
+        </main>
+        <aside class="column is-3">
+            <div class="highlights">
+                <h3 class="title is-4">Game Highlights</h3>
+                <h4>Current Featured Game</h4>
+                <p>Hollow Knight: Silksong</p>
+                <hr>
+                <h4><a href="games.html">Check Out Other Popular Games</a></h4>
+            </div>
+        </aside>
+    </div>
     </div>
 </body>
 <footer>
