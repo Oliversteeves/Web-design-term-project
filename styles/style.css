@@ -495,6 +495,11 @@ nav li p {
     aspect-ratio: 16/9;
 }
 
+.galimg{
+    width: 150%;
+    height: auto;
+}
+
 @media screen and (max-width: 768px) {
     .layout {
         display: flex;
