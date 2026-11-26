@@ -9,6 +9,8 @@
 
 .highlights {
     margin-bottom: 15px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
+    margin: 2%;
 }
 
 .media-grid {
@@ -23,10 +25,13 @@ header {
     text-align: center;
     background-color: #afafaf;
     color: white;
-    padding: 20px;
-    border-radius: 6px;
+    padding: 10px;
+    
     font-weight: bolder;
     font-size: 1.6em;
+    border-bottom: #000000;
+    border-width: 10px;
+    border: #000000;
 }
 
 header img{
@@ -160,6 +165,7 @@ body {
     margin: 0;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e4e4e4;
 }
 
 nav ul {
@@ -320,6 +326,35 @@ gap: 20px;
     padding: 4px 10px;
     margin: auto;
 }
+.spec_list{
+    text-align: center;
+    background: #fcfcfc;
+    border-radius: 4px;
+    display: table;
+    padding: 4px 10px;
+    margin: auto;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
+}
+.spec_list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    padding: 0;
+}
+.spec_list li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #929292;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 50px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
+}
 .where_head{
     text-align: center;
     background: #fcfcfc;
@@ -392,12 +427,12 @@ nav li p {
     position: sticky;
     position: -webkit-sticky; /*idk what this does some guy on stack overflow told me this would fix the sticky issue and somehow it did*/
     top: 250px;
-
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
     background: #fcfcfc;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #ddd;
-
+    gap: 10px;
     height: fit-content;
     z-index: 10;
 }
@@ -510,4 +545,23 @@ nav li p {
         display: none;
     }
 
+    .spec_list ul {
+        list-style-type: none;
+        display: block;
+        gap: 18px;
+        justify-content: center;
+        padding: 0;
+    }
+    .spec_list li a {
+        color: rgb(186, 186, 186);
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 8px 10px;
+        background: #929292;
+        white-space: nowrap;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 50px;
+    }
 }
