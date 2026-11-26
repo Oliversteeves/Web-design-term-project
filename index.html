@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <header>
     <h1><a href="index.html"><img src="images/templogo.png" alt="templogo" class="logo"></a></h1>   
+    <button class="burger" onclick="burgerMenu()">☰</button>
 </header>
+
+<script>
+function burgerMenu() {
+    document.querySelector(".nav_stuff").classList.toggle("show");
+}
+</script>
+
 <body>
         <div class="columns layout">
             <aside class="column is-3">

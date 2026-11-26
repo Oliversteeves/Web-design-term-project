@@ -11,7 +11,15 @@
 </head>
 <header>
     <h1><a href="index.html"><img src="images/templogo.png" alt="templogo"></a></h1>
+    <button class="burger" onclick="burgerMenu()">☰</button>
 </header>
+
+<script>
+function burgerMenu() {
+    document.querySelector(".nav_stuff").classList.toggle("show");
+}
+</script>
+
 <body>
     <div class="columns layout">
         <aside class="column is-3">
