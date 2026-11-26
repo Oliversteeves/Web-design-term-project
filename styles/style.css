@@ -500,6 +500,10 @@ nav li p {
     height: auto;
 }
 
+#formNotification{
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .layout {
         display: flex;

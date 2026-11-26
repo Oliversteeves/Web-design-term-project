@@ -38,7 +38,7 @@ function burgerMenu() {
         <div class="contact">
             <body>
                 <h1>Contact</h1>
-                <form method="get">
+                <form method="get" id="contactForm">
                     <div class="field"><label class="label" for="email">Email</label>
                     <div class="control"><input id="email" class="input" type="email" placeholder="you@example.com"></div>
                     </div>
@@ -75,7 +75,18 @@ function burgerMenu() {
                     <br>
                     <br>
                     <input type="submit" value="Contact">
+                    <div id="formNotification" class="notification is-success is-light" style="display: none;">
+                        Your message has been successfully submitted!
+                    </div>
                     <input type="reset" value="Clear">
+
+                    <script>
+                        document.getElementById("contactForm").addEventListener("submit", function(event) {
+                            event.preventDefault();
+                            document.getElementById("formNotification").style.display = "block";
+                        });
+                    </script>
+
                 </form>
                 <div class="card">
                     <div class="contact">
