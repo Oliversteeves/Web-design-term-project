@@ -562,15 +562,6 @@ nav li p {
         right: 30px;
     }
 
-    .nav_stuff{
-        display: none;
-    }
-
-    .nav_stuff.show {
-        display: block;
-        margin-top: 12px;
-    }
-
     .side-nav:has(.nav_stuff.show){
             background-color: #555555;
             display: block;
